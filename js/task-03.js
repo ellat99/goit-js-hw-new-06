@@ -20,7 +20,7 @@ if (gallery) {
   let galleryHtml = "";
   //iteram prin matricea de imagini de mai sus si adaugam fiecare imagine in html
   images.forEach((image) => {
-    galleryHtml += `<li>img src="${image.url}"" alt="${image.alt}"</li>`;
+    galleryHtml += `<li><img src="${image.url}" alt="${image.alt}"></li>`;
   });
 
   //adaugam continutul html in lista ul cu insertAdjacentHTML()
